@@ -1,0 +1,89 @@
+body {
+  background-color: #1a472a;
+}
+.header {
+  background-color: #5d5d5d;
+  font-family: Verdana;
+  font-size: 2.75em;
+  clear: both;
+  margin: 10px;
+  text-align: center;
+}
+.all {
+  font-family: Verdana;
+  color: #aaaaaa;
+}
+.main {
+  text-align: center;
+  font-family: Verdana;
+  font-size: 3em;
+  border: 3px solid #5d5d5d;
+  padding: 10px;
+  width: 80%;
+  margin-left: 100px;
+}
+a:link {
+  color: #000000;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:visited {
+  color: #aaaaaa;
+}
+nav ul {
+  font-size: 2.5em;
+  color: #000000;
+  text-align: center;
+  display: block;
+  padding: 5px;
+  font-size: 2em;
+  text-decoration: none;
+  width: 100%;
+  list-style-type: none;
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+  padding: 8px 0px 8px 0px;
+}
+aside ul {
+  font-size: 2em;
+  color: #000000;
+  text-align: center;
+  display: block;
+  text-decoration: none;
+  list-style-type: none;
+  width: 140px;
+  background-color: #1a472a;
+  border: 1px solid #000000;
+  position: absolute;
+  left: 1180px;
+  bottom: 300px;
+  margin: 0;
+  padding: 0px;
+}
+aside li a {
+  text-decoration: none;
+  padding: 8px 0px 8px 0px;
+}
+li a:hover {
+  background-color: #2a623d;
+}
+.avatar {
+  float: right;
+  position: relative;
+  right: 30px;
+  top: -475px;
+  border: 1px solid #000000;
+  padding: 5px;
+}
+.footer {
+  background-color: #5d5d5d;
+  font-family: Verdana;
+  font-size: 1.3em;
+  clear: both;
+  margin: 10px;
+  text-align: center;
+}
