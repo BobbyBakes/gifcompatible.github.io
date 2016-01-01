@@ -36,3 +36,13 @@ img {
   width: 20%;
   height: 20%;
 }
+pre {
+  color: #55cc66;
+  background: #001800;
+  text-align: left;
+  width: 50%;
+}
+pre span {
+color: #508050;
+font-weight: bold;
+}
