@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <META charset="UTF-8"/>
+  <title>Arrays and Hashes</title>
+  </head>
+  <body>
+    <link type="text/css", rel="stylesheet", href="../stylesheets/default.css"/>
+  <link type="text/css", rel="stylesheet", href="../stylesheets/blog.css"/>
+    <div class="all">
+      <div class="header">
+        <header>
+        <a href="http://gifcompatible.github.io/">Home</a>
+        </header>
+      </div>
+        <div class="article">
+          <article>
+            <main>
+              <h1>Arrays and Hashes</h1>
+                <section>
+                  <p>
+                  Arrays and Hashes are methods that can be used to store information.  A method is a block of code designed to carry out a specific task.  Here's an example of a method in the programming language Ruby:
+                  <pre>
+<span>def</span> method_name(argument)
+  some code to carry out
+  <span>end</span>
+                  </pre>
+                  To get the method to carry out the code, you can call it, which looks like this:
+                  <pre>
+ method_name(your-argument)
+                  </pre>
+                  So you can define an array or hash and then have it store some information, which you can access later by calling the method.  Pretty cool, huh?  Let's look at the main differences between arrays and hashes, including examples of how to use them and ideas of when to use one versus the other.
+                  </p>
+                </section>
+                <section>
+                  <h3>Arrays</h3>
+                  <p>
+                  So we know that arrays can store information-they are especially great for keeping lists of ordered information.  This information can include integers, strings (items between single quotes or double quotes), other arrays, and hashes to name a few.  Arrays can be formatted like this in Ruby:
+                  <pre>
+<span>array_name</span>["string", 23, [1,2,3]]
+                  </pre>
+                  That last object in the array is another array within the array.  WILD!!  So what would we want to use an array for?  Arrays work well for things that don't necessarily need to be organized a certain way-like a list shoes you'd like to buy.  So you could use your array to remember what all shoes were on the list.  Here's what that code could look like:
+                  <pre>
+<span>shoes</span>["Nike Lunarglide-Blue", "Vans-Polka Dot", "Doc Martens-Mary Janes"]
+                  </pre>
+                  And then if you wondered which shoe was listed in your array at a certain point, you can call the array and using the index (position of the item) to get the array to tell you which shoe is there.  Note that the index count starts from 0, so while I have "1" here, it's going to give you the second shoe in the array.  Check it out:
+                  <pre>
+<span>shoes</span>[1] => this will tell you "Vans-Polka Dot"
+                  </pre>
+                  </p>
+                  <h3>Hashes</h3>
+                  <p>
+                    So hashes are very similar to arrays, but they are especially good for putting items in a specific order-dictionaries, a list of favorite movies, and address book-the list goes on!  Hashes including pairs of information-think about how in a dictionary you'd like to have the word paired with it's definition.  Hashes can be formatted like this in Ruby:
+<pre>
+<span>hash_name</span>{"word1" => "definition1", "word2" => "definition2"}
+                  </pre>
+                  And as you may have guessed, like with arrays we can figure out which definition goes with a certain word by doing this:
+                  <pre>
+<span>hash_name</span>["word1"] => this will give you "definition1"
+                  </pre>
+                  </p>
+                  <h3>How Do I Decide?!</h3>
+                  <p>Ultimately, the decision of which method to use to organize your information is up to to, just like the decision to join the light or dark side of the Force.  However, search your feelings for which method is more appropriate in each situation.  Personally, I think it makes much more sense to use a hash when you need to match items with other items, but that doesn't mean an array wouldn't work as well.  Try out both to do the same thing and see what works best for you.</p>
+                </section>
+                  <div class="time">
+                    <time>Posted Friday, January 1st, 2016</time>
+                  </div>
+                    <nav>
+                      <a href="#">Older</a>
+                      <a href="#">Newer</a>
+                    </nav>
+          </main>
+        </article>
+    </div>
+  </body>
+</html>
