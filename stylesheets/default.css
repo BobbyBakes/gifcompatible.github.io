@@ -43,26 +43,12 @@ nav li {
   display: inline;
   padding: 8px 0px 8px 0px;
 }
-aside ul {
-  font-size: 1.5em;
-  color: #000000;
-  text-align: left;
-  display: block;
-  text-decoration: none;
-  list-style-type: none;
-  width: 105px;
-  background-color: #1a472a;
-  border: 1px solid #000000;
-  position: absolute;
-  bottom: 300px;
-  left: 0px;
-  padding: 0px;
-}
-aside li a {
-  padding: 0px;
-}
-li a:hover {
+.nav1 li a:hover {
   background-color: #2a623d;
+}
+li img {
+  width: 64px;
+  height: 64px;
 }
 .avatar {
   position: absolute;
