@@ -40,9 +40,12 @@ pre {
   color: #55cc66;
   background: #001800;
   text-align: left;
-  width: 50%;
+  width: 60%;
 }
 pre span {
 color: #508050;
 font-weight: bold;
+}
+pre a:link {
+color: #aaaaaa;
 }
