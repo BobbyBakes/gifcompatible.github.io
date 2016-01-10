@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <META charset="UTF-8"/>
+  <title>Summary of Post title</title>
+  </head>
+  <body>
+    <link type="text/css", rel="stylesheet", href="../stylesheets/default.css"/>
+  <link type="text/css", rel="stylesheet", href="../stylesheets/blog.css"/>
+    <div class="all">
+      <div class="header">
+        <header>
+        <a href="http://gifcompatible.github.io/">Home</a>
+        </header>
+      </div>
+        <div class="article">
+          <article>
+            <main>
+              <h1>Ruby Enumerable Method any?</h1>
+                <section>
+                  <p>
+                  First things first-Ruby has a module of methods (sections of codes that do a specific action) called enumerables-enumberables go through collections and sort, search, and manipulate them. Today let's look at how to use the enumerable "any?" maybe you can guess what it does just by looking at the example:
+<pre>
+<span>colors</span> = ['turquoise', 'purple', 'green'] # remember <a href="http://gifcompatible.github.io/blog/arrays-hashes.html">arrays?</a>
+<span>colors.any?</span> {|color| color == 'brown'}
+</pre>
+                  Let's go through this line by line.  The first line is a an array of different colors.  Then, we check if any of the colors in the array are brown, which should be false.  The double equals sign basically asks if something is true or not.  As you may have guessed, any? is a method that you can use to ask if any of the items in an array or hash meet the conditions in the code block, in this case, are any of the colors equal to brown.  Boom!  I know your mind is probably blown at how easy that was.  Go forth and use any? till your heart's content!!  Happy coding.
+                  </p>
+                </section>
+                  <div class="time">
+                    <time>Posted Saturday January 9th, 2016</time>
+                  </div>
+                    <nav>
+                      <a href="#">Older</a>
+                      <a href="#">Newer</a>
+                    </nav>
+          </main>
+        </article>
+    </div>
+  </body>
+</html>
