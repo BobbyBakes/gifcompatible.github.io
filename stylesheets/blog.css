@@ -1,12 +1,11 @@
-.article h1{
-  /*font-size: 2em;*/
+article h1{
   text-align: center;
 }
  h3{
   color: #000000;
   text-align: left;
 }
-.article p{
+article p{
   text-align: left;
   font-size: 1em;
   color: #aaaaaa;
@@ -40,7 +39,7 @@ pre {
   color: #55cc66;
   background: #001800;
   text-align: left;
-  width: 60%;
+  width: 100%;
 }
 pre span {
 color: #508050;
