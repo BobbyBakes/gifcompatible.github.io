@@ -48,7 +48,7 @@ li img {
   width: 64px;
   height: 64px;
 }
-.blogs a {
+main a {
   display: block;
   text-align: left;
 }
@@ -70,11 +70,16 @@ footer {
   clear: both;
   margin: 10px;
   text-align: center;
-}
-.twitter-timeline {
+
 }
 .mailto {
   font-size: 4em;
   text-align: center;
   padding: 100px;
 }
+/*#twitter {
+  position: absolute;
+  top: 30%;
+  right: 0;
+  width: 200px;
+}*/
