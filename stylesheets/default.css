@@ -48,6 +48,10 @@ li img {
   width: 64px;
   height: 64px;
 }
+main a {
+  display: block;
+  text-align: left;
+}
 .face {
   position: absolute;
   right: 0px;
