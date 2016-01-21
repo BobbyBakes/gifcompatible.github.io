@@ -66,23 +66,10 @@
                     <time>Posted Friday, January 1st, 2016</time>
                   </div>
                     <nav>
-                      <a href="#">Older</a>
-                      <a href="#">Newer</a>
-                      <script language="JavaScript">
-<!--//
-
-/*Code for the going back*/
-function Back()
-{
-document.location="history.htm";
-}
-
-/*Code for going forward*/
-function Forward()
-{
-document.location="BackForward.htm";
-}
---></script>
+                      <!-- <a href="#">Older</a>
+                      <a href="#">Newer</a> -->
+                      <a href="#null" onclick="javascript:history.back();">Older</a>
+                      <a href="#null" onclick="javascript:history.forward();">Newer</a>
                     </nav>
           </main>
         </article>
