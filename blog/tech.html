@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <META charset="UTF-8"/>
+  <title>Regular Expressions</title>
+  </head>
+  <body>
+    <link type="text/css", rel="stylesheet", href="../stylesheets/default.css"/>
+  <link type="text/css", rel="stylesheet", href="../stylesheets/blog.css"/>
+        <header>
+        <a href="http://gifcompatible.github.io/index">Home</a>
+        </header>
+          <article>
+            <main>
+              <h1>Regular Expressions</h1>
+                <section>
+                  <p>
+                  Closing out phase 0 of my Dev Bootcamp learning...what better to do than learn some new shit?!  Let's dive into regular expressions.  Regular expressions are objects that describe a pattern of characters.  So for example, [A-Z] is a pattern of capitalized letters from A-Z.  We can use that pattern to do search-and-replace using a modifier, which is what follows the pattern.  In JavaScript, that looks like this:
+                  </p>
+<p>
+<pre>
+<span>var</span> pattern = /example/i
+</pre>
+</p>
+                  <p>
+                  So we're going to search for for "example", and i makes it case-insensitive.  So then, we can do something like this:
+                  </p>
+                  <p>
+<pre>
+<span>var</span> my_string = "An apple";
+<span>var</span> new_string = my_string.replace(/apple/i, "example");
+</pre>
+</p>
+                <p>
+                This will give us a new string, "An example" because we searched for apple and replaced it with example.  Pretty cool eh?!  You can search for a ton of different patterns using regular expressions.  Here are some additional resources:
+                <p>
+                <a href ="http://www.w3schools.com/js/js_regexp.asp">W3 Schools: Tons of great documentation</a>
+                <a href ="http://www.regexr.com/">RegExr: Play around with regular expressions</a>
+                </p>
+                </p>
+                </section>
+                  <p class="time">
+                    Posted<time> Monday February 1st, 2016</time></p>
+                    <nav>
+                      <a href="http://gifcompatible.github.io/blog/javascript.html">Older</a>
+                      <a href="#">Newer</a>
+                    </nav>
+          </main>
+        </article>
+  </body>
+</html>
