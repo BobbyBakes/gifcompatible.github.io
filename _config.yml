@@ -14,7 +14,7 @@ email: okeydopeness@gmail.com
 description: > # this means to ignore newlines until "baseurl:"
   Gif Compatible is part tech blog, part...???  You've been warned.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://gifcompatible.github.io" # the base hostname & protocol for your site
+url: "https://gifcompatible.github.io" # the base hostname & protocol for your site
 twitter_username: gifcompatible
 github_username: gifcompatible
 trakt_username: cardcaptor5
