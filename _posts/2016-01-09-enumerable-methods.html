@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Ruby Enumerable Method any?"
+---
+<p>
+First things first-Ruby has a module of methods (sections of codes that do a specific action) called enumerables-enumberables go through collections and sort, search, and manipulate them. Today let's look at how to use the enumerable "any?" maybe you can guess what it does just by looking at the example:
+</p>
+
+{% highlight ruby linenos %}
+colors = ['turquoise', 'purple', 'green']
+colors.any? {|color| color == 'brown'}
+{% endhighlight %}
+
+<p>
+Let's go through this line by line.  The first line is a an array of different colors.  Then, we check each item in the array in turn to see if any of the colors in the array are brown, which should be false.  The double equals sign basically asks if something is true or not.  As you may have guessed, any? is a method that you can use to ask if any of the items in an array or hash meet the conditions in the code block, in this case, are any of the colors equal to brown.  Boom!  I know your mind is probably blown at how easy that was.  Go forth and use any? till your heart's content!!  Happy coding.
+<p>

@@ -1,0 +1,30 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+paginate: 4
+paginate_path: "/blog/page:num/"
+timezone: America/Indiana/Indianapolis
+title: Gif Compatible
+email: okeydopeness@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+  Gif Compatible is part tech blog, part...???  You've been warned.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://gifcompatible.github.io" # the base hostname & protocol for your site
+twitter_username: gifcompatible
+github_username: gifcompatible
+trakt_username: cardcaptor5
+spotify_username: gwentitwillow
+linkedin_username: jennaelamin
+instagram_username: gifcompatible
+pinterest_username: gifcompatible
+
+# Build settings
+markdown: kramdown
+
+# gems
+gems: [jekyll-paginate]

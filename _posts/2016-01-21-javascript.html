@@ -1,0 +1,42 @@
+---
+layout: post
+title: "Ruby vs JavaScript-Fight!"
+---
+<p>
+This week we're going to take a look at Ruby hashes vs JavaScript Objects.  I know, I know-we were just getting to know Ruby!  The main thing to note here is that JavaScript functions are similar to Ruby methods-they carry out the same code each time so you don't have to re-write it over and over.  Let's do this!
+</p>
+
+<h3>Ruby Hashes</h3>
+<p>Remember what a hash looks like in Ruby?  No?  Ok, fine:
+</p>
+
+{% highlight ruby linenos %}
+spanish_english = {
+    "hola": "hello",
+    "adios": "goodbye"
+    }
+{% endhighlight %}
+
+<p>
+Remember that hashes look at key (left) value (right) pairs-it's good for matching things up to easily access them later.  So we could wonder, what is the value in English that matches the key in Spanish?  This little hash would tell us.  #killedit
+</p>
+<h3>JavaScript Objects</h3>
+<p>Now let's see what a JavaScript object looks like.  Probably completely different, right?  Well...
+</p>
+{% highlight javascript linenos %}
+var spanish_english = {
+    hola: "hello";
+    adios: "goodbye";
+  };
+{% endhighlight %}
+<p>
+Is that what you expected?  JavaScript objects are eerily similar to Ruby hashes-they also look at pairs, so we can do pretty much the same stuff with them.  However, JavaScript keys are called properties.  Something else that's different is that JavaScript can have a function as a property.  So you can do something cool like this:
+</p>
+{% highlight javascript linenos %}
+spanish_english.speak_it = function(hola)
+    { console.log("The word for hola in English is " + hola + ".")};
+    // this would output "The word for hola in English is hello."
+{% endhighlight %}
+<p>
+Do you see that?!  What this means is that we can give our spanish_english object a function-you can't give Ruby hashes methods.  That's pretty cool.  One point to you, JavaScript, but my heart is still with Ruby...
+</p>

@@ -1,0 +1,23 @@
+main ul {
+  list-style-type: circle;
+  font-size: .75em;
+}
+main li {
+  padding: 20px;
+}
+mark {
+  background-color: black;
+  color: #aaaaaa;
+}
+#frame {
+    display: none;
+    width: 500px;
+    height: 100px;
+}
+a:hover + #frame,#frame:hover {
+    display: inline;
+    position: relative;
+    top: -75px;
+    float: right;
+    z-index: 100;
+}

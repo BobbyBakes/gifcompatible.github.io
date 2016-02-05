@@ -1,0 +1,41 @@
+---
+layout: post
+title: "Ruby Classes"
+---
+<p>
+Let's change it up this week and hop straight into the code:
+</p>
+
+{% highlight ruby linenos %}
+class Dog # this kicks off the class
+  def initialize(breed,name,weight) # building our "Dog" arguments
+    @breed = breed # the "@" makes instance variables
+    @name = name
+    @weight = weight
+  end
+
+  def info
+    puts "#{@name} is a #{@breed} and weighs #{@weight} pounds."
+    # what we want to do with the breed, name and weight variables
+  end
+end
+{% endhighlight %}
+
+<p>
+Classes allow you to use the same code over and over for a certain type of object without having to rewrite it.
+So we've learned how to define a method in ruby-we have some of that going on here with several new things.  On the first line, we kick things off by create a new object class "Dog".  Essentially, we can make a bunch of new dogs and have them all set up the same way!  The @ symbols on the 3 variables indicate that they are instance variables, meaning they can be accessed within other methods throughout the class.  The # followed by {} does something called interpolation-basically, whatever you happen to put there "Spike" or "Rex", "Golden Retriever" or "Pug", "190" or "50", it will insert it into our string to print that out.  Pretty flippin cool.
+</p>
+
+<h3>How to Make New Dogs</h3>
+<p>So now that we've set up our class, we can create some new dogs.  We can do that like so:
+</p>
+
+{% highlight ruby linenos %}
+new_dog = Dog.new("Spike","golden retriever", "190") # enter the info
+new_dog.info # print out the info:
+"Spike is a golden retriever that weighs 190 pounds."
+{% endhighlight %}
+
+<p>
+That's it.  That's all you have to do to create new dogs using the awesome Dog class we created. Classes, like bow-ties, are cool.  Happy coding!
+</p>

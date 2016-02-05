@@ -1,0 +1,71 @@
+---
+layout: post
+title: "Arrays and Hashes"
+---
+<p>
+Arrays and Hashes are methods that can be used to store information.  A method is a block of code designed to carry out a specific task.  Here's an example of a method in the programming language Ruby:
+</p>
+
+{% highlight ruby linenos %}
+def method_name(argument)
+  some code to carry out
+end
+{% endhighlight %}
+
+<p>
+To get the method to carry out the code, you can call it, which looks like this:
+</p>
+
+{% highlight ruby linenos %}
+method_name(your-argument)
+{% endhighlight %}
+
+<p>
+So you can define an array or hash and then have it store some information, which you can access later by calling the method.  Pretty cool, huh?  Let's look at the main differences between arrays and hashes, including examples of how to use them and ideas of when to use one versus the other.
+</p>
+
+<h3>Arrays</h3>
+<p>
+So we know that arrays can store information-they are especially great for keeping lists of ordered information.  This information can include integers, strings (items between single quotes or double quotes), other arrays, and hashes to name a few.  Arrays can be formatted like this in Ruby:
+</p>
+
+{% highlight ruby linenos %}
+array_name["string", 23, [1,2,3]]
+{% endhighlight %}
+
+<p>
+That last object in the array is another array within the array.  WILD!!  So what would we want to use an array for?  Arrays work well for things that don't necessarily need to be organized a certain way-like a list shoes you'd like to buy.  So you could use your array to remember what all shoes were on the list.  Here's what that code could look like:
+</p>
+
+{% highlight ruby linenos %}
+shoes["Nike Lunarglide-Blue", "Vans-Polka Dot", "Doc Martens-Mary Janes"]
+{% endhighlight %}
+
+<p>
+And then if you wondered which shoe was listed in your array at a certain point, you can call the array and using the index (position of the item) to get the array to tell you which shoe is there.  Note that the index count starts from 0 on the left, so while I have "1" here, it's going to give you the second shoe in the array.  Check it out:
+</p>
+
+{% highlight ruby linenos %}
+shoes[1] => this will tell you "Vans-Polka Dot"
+{% endhighlight %}
+
+<h3>Hashes</h3>
+<p>
+So hashes are very similar to arrays, but they are especially good for putting items in a specific order-dictionaries, a list of favorite movies, and address book-the list goes on!  Hashes include pairs of information that are referred to as keys and values-the key is the item on the left, and the value is the item on the right (think of the keys as consistent categories and the values as the attributes the categories can have).Think about how in a dictionary you'd like to have the word paired with it's definition.  Hashes can be formatted like this in Ruby:
+</p>
+
+{% highlight ruby linenos %}
+hash_name{"word1" => "definition1", "word2" => "definition2"}
+{% endhighlight %}
+
+<p>
+And as you may have guessed, like with arrays we can figure out which definition goes with a certain word by doing this:
+</p>
+
+{% highlight ruby linenos %}
+hash_name["word1"] => this will give you "definition1"
+{% endhighlight %}
+
+<h3>How Do I Decide?!</h3>
+<p>Ultimately, the decision of which method to use to organize your information is up to to, just like the decision to join the light or dark side of the Force.  However, search your feelings for which method is more appropriate in each situation.  Personally, I think it makes much more sense to use a hash when you need to match items with other items, but that doesn't mean an array wouldn't work as well.  Try out both to do the same thing and see what works best for you.
+</p>
