@@ -27,4 +27,4 @@ pinterest_username: gifcompatible
 markdown: kramdown
 
 # gems
-gems: [jekyll-paginate]
+# gems: [jekyll-paginate]
