@@ -4,5 +4,7 @@ title: Blog
 permalink: /blog/
 ---
 
-
-<!-- this is where the link for a list of posts should go -->
+{% for post in site.posts %}
+    <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
+    <p><small><strong>{{ post.date | date: "%B %e, %Y" }}</strong> . {{ post.category }} . <a href="http://gifcompatible.github.io{{ post.url }}"></a></small></p>
+{% endfor %}
