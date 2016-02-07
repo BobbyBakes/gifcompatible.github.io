@@ -5,10 +5,6 @@ main ul {
 main li {
   padding: 20px;
 }
-mark {
-  background-color: black;
-  color: #aaaaaa;
-}
 #frame {
     display: none;
     width: 500px;
