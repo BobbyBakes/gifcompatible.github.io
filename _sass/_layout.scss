@@ -2,7 +2,7 @@
  * Site header
  */
 .header-col-wrapper {
-    font-size: 15px;
+    font-size: 16px;
     color: $aqua-color;
     margin-left: -$spacing-unit / 2;
     @extend %clearfix;
@@ -15,13 +15,13 @@
 }
 
 .header-col-1 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(27% - (#{$spacing-unit} / 2));
+    width:         calc(27% - (#{$spacing-unit} / 2));
 }
 
 .header-col-2 {
-    width: -webkit-calc(40% - (#{$spacing-unit} / 2));
-    width:         calc(40% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(43% - (#{$spacing-unit} / 2));
+    width:         calc(43% - (#{$spacing-unit} / 2));
 }
 
 .header-col-3 {
@@ -81,9 +81,20 @@
         display: none;
     }
 
+    // > a:hover {
+    //         transition: .5s;
+    //         fill: rgba(167, 57, 150, 0.72);
+    //     }
+
     .page-link {
-        color: $text-color;
+        color: $aqua-color-dark;
         line-height: $base-line-height;
+        text-decoration: none;
+
+        &:hover {
+            transition: .5s;
+            fill: rgba(167, 57, 150, 0.72);
+        }
 
         // Gaps between nav items, but not on the last one
         &:not(:last-child) {

@@ -204,4 +204,9 @@ pre {
             fill: $aqua-color;
         }
     }
+
+    svg:hover path {
+        transition: .5s;
+        fill: rgba(167, 57, 150, 0.72);
+    }
 }
