@@ -81,19 +81,14 @@
         display: none;
     }
 
-    // > a:hover {
-    //         transition: .5s;
-    //         fill: rgba(167, 57, 150, 0.72);
-    //     }
-
     .page-link {
         color: $aqua-color-dark;
         line-height: $base-line-height;
         text-decoration: none;
 
         &:hover {
-            transition: .5s;
-            fill: rgba(167, 57, 150, 0.72);
+            transition: .3s;
+            color: rgba(167, 57, 150, 0.72);
         }
 
         // Gaps between nav items, but not on the last one
@@ -162,13 +157,14 @@
     li {
         display: inline;
     }
-    a {
 
+    a {
         &:hover {
             text-decoration: none;
         }
     }
 }
+
 
 /**
  * Site footer
@@ -350,6 +346,3 @@
 //   right: 20px;
 //   width: 200px;
 // }
-/* .sidebar {
-  width: 200px;
-} */
