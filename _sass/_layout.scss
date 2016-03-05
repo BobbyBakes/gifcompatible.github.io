@@ -20,13 +20,13 @@
 }
 
 .header-col-2 {
-    width: -webkit-calc(43% - (#{$spacing-unit} / 2));
-    width:         calc(43% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(41% - (#{$spacing-unit} / 2));
+    width:         calc(41% - (#{$spacing-unit} / 2));
 }
 
 .header-col-3 {
-    width: -webkit-calc(30% - (#{$spacing-unit} / 2));
-    width:         calc(30% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(32% - (#{$spacing-unit} / 2));
+    width:         calc(32% - (#{$spacing-unit} / 2));
 }
 
 @include media-query($on-laptop) {
