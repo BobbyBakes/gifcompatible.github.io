@@ -1,0 +1,37 @@
+<!--  this should link to home, blog page needs it's own file idk what happened to it-->
+
+---
+layout: default
+title: Blog
+permalink: /blog/
+---
+
+<div class="home">
+
+  <h1 class="page-heading">Blog</h1>
+
+  <ul class="post-list">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+      </li>
+        <section class = "post-preview">
+          <a href="{{post.url}}"><h1>{{post.title}}</h1></a>
+          {% if post.subtitle %}
+          <h3>{{post.subtitle}}</h3>
+          {% endif %}
+
+          {% if post.description %}
+          <p>{{post.description}}</p>
+          {% else %}
+          <p>{{post.excerpt}}</p>
+          {% endif %}
+          <a href="{{post.url}}">Read more</a>
+        </section>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div>
