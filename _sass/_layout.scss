@@ -15,13 +15,13 @@
 }
 
 .header-col-1 {
-    width: -webkit-calc(27% - (#{$spacing-unit} / 2));
-    width:         calc(27% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(29% - (#{$spacing-unit} / 2));
+    width:         calc(29% - (#{$spacing-unit} / 2));
 }
 
 .header-col-2 {
-    width: -webkit-calc(41% - (#{$spacing-unit} / 2));
-    width:         calc(41% - (#{$spacing-unit} / 2));
+    width: -webkit-calc(39% - (#{$spacing-unit} / 2));
+    width:         calc(39% - (#{$spacing-unit} / 2));
 }
 
 .header-col-3 {
@@ -67,7 +67,7 @@
     margin-bottom: 0;
     float: left;
     text-decoration: none;
-    
+
     &:visited {
         color: $aqua-color-dark;
     }
