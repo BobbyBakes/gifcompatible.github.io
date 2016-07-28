@@ -66,10 +66,15 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-
-    &,
+    text-decoration: none;
+    // &,
     &:visited {
         color: $aqua-color-dark;
+    }
+
+    &:hover {
+        transition: .3s;
+        color: rgba(167, 57, 150, 0.72);
     }
 }
 
