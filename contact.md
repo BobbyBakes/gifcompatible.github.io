@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 permalink: /contact/
+order: 4
 ---
 <div class="mailto">
   For all inquiries, email me by clicking below.
