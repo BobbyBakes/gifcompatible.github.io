@@ -66,16 +66,7 @@
     letter-spacing: -1px;
     margin-bottom: 0;
     float: left;
-    text-decoration: none;
 
-    &:visited {
-        color: $aqua-color-dark;
-    }
-
-    &:hover {
-        transition: .3s;
-        color: rgba(167, 57, 150, 0.72);
-    }
 }
 
 .site-nav {
@@ -88,11 +79,10 @@
     .page-link {
         color: $aqua-color-dark;
         line-height: $base-line-height;
-        text-decoration: none;
 
         &:hover {
             transition: .3s;
-            color: rgba(167, 57, 150, 0.72);
+            color: $text-color;
         }
 
         // Gaps between nav items, but not on the last one

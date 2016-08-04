@@ -100,7 +100,7 @@ a {
 
     &:hover {
         color: $text-color;
-        text-decoration: underline;
+        text-decoration: none;
     }
 }
 
@@ -207,6 +207,6 @@ pre {
 
     svg:hover path {
         transition: .3s;
-        fill: rgba(167, 57, 150, 0.72);
+        fill: $text-color;
     }
 }
